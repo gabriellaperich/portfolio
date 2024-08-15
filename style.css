@@ -1,3 +1,7 @@
+h4 {
+    margin-left: 45px;
+}
+
 a {
     text-decoration: none;
     text-transform: uppercase;
@@ -16,7 +20,11 @@ li {
     margin-top: 10px;
 }
 
-li:hover {
+.education {
+    line-height: 21px;
+}
+
+.nav:hover {
     color: red;
 }
 
@@ -24,7 +32,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.about-me {
+.idioma p {
+    text-indent: 16px;
+}
+
+h2 {
     font-family: "Merriweather", serif;
     margin-left: 45px
 }
