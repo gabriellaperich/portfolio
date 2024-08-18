@@ -2,7 +2,7 @@ h4 {
     margin-left: 45px;
 }
 
-a {
+nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: black;
@@ -13,7 +13,7 @@ nav {
     text-align: center;
 }
 
-li {
+nav li {
     list-style-type: none;
     display: inline-block;
     margin: 0 20px;
@@ -24,8 +24,8 @@ li {
     line-height: 21px;
 }
 
-.nav:hover {
-    color: red;
+a:hover {
+    color: rgb(254, 195, 65);
 }
 
 body {
@@ -47,8 +47,16 @@ p {
 }
 
 .title {
-    font-family: "Merriweather", serif;
+    font-family: "Merriweather", sersif;
     color: #453f3f;
     font-size: 80px;
     margin: 45px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    animation: blink-caret 0.75s step-end infinite;
 }
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: transparent }}
