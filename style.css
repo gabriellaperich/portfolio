@@ -1,5 +1,5 @@
 h4 {
-    margin-left: 45px;
+    margin-left: 400px;
 }
 
 nav a {
@@ -32,25 +32,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.idioma p {
-    text-indent: 16px;
-}
-
 h2 {
     font-family: "Merriweather", serif;
-    margin-left: 45px
+    margin-left: 400px
 }
 
 p {
-    margin: 0 0 0 45px;
+    margin: 0 400px 0 400px;
     line-height: 23px;
+    text-align: justify;
 }
 
 .title {
     font-family: "Merriweather", sersif;
     color: #453f3f;
     font-size: 80px;
-    margin: 45px;
+    text-align: center;
     white-space: pre-wrap;
     overflow: hidden;
     border-right: .15em solid orange;
@@ -60,3 +57,16 @@ p {
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: transparent }}
+
+.education ul {
+    margin: 0 400px;
+}
+
+.formation ul{
+    margin: 0 400px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
